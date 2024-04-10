@@ -31,7 +31,7 @@ This command builds and deploys the application according to the specifications 
 
 After deploying your services, you can inspect the operations and outputs of the writer services as follows:
 
-1. **List Services**: Check the active services using the `convox services` command. You should see your writer services listed:
+1. **List Services**: Check the active services for a given application using the `convox services -a appName` command. You should see your writer services listed:
 
 ```bash
 SERVICE  DOMAIN  PORTS
@@ -39,7 +39,7 @@ writer1
 writer2
 ```
 
-2. **Check Running Processes**: To view the currently running processes and their IDs, use `convox ps`. This will display all active processes:
+2. **Check Running Processes**: To view the currently running processes and their IDs, use `convox ps -a appName`. This will display all active processes for a given application:
 
 ```bash
 ID            SERVICE  STATUS   RELEASE      STARTED         COMMAND
