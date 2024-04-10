@@ -1,0 +1,11 @@
+services:
+  writer1:
+    build: .
+    command: python writer1.py
+    volumes:
+      - /my/shared/data
+  writer2:
+    build: .
+    command: python writer2.py
+    volumes:
+      - /my/shared/data
