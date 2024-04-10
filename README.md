@@ -1,4 +1,4 @@
-# examples/python-volume-writers
+# convox-examples/v2-volumes-example
 
 This repository contains a Python application demonstrating shared volume use between services for deployment on Convox. The application comprises two writing services, each persistently writing to its designated file within a shared volume, showcasing data persistence and sharing capabilities.
 
